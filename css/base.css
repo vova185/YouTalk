@@ -81,6 +81,22 @@ button::-moz-focus-inner {
     border: 0;
 }
 
+.btn:hover {
+    transform: scale(1.2, 1.2);
+}
+
+button:hover {
+    transform: scale(1.1, 1.2);
+}
+
+li a:hover {
+    color:rgb(194, 0, 91);
+}
+
+a:hover {
+    color:rgb(194, 0, 91);
+}
+
 label {
     cursor: pointer;
 }
@@ -159,6 +175,8 @@ legend {
     text-align: center;
     white-space: nowrap;
 }
+
+
 
 .footer {
     display: flex;
@@ -271,7 +289,7 @@ ul.vertical-list2 a {
     width: 64px;
     height: 48px;
     cursor: pointer;
-    border: 2px inset #108dc7
+    border: 3px inset #108dc7
 }
 ::placeholder {
     font-family: "Franklin Gothic Medium", sans-serif;
