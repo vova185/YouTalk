@@ -23,20 +23,19 @@ body {
 .horizont span {
     font-family: "Franklin Gothic Medium", sans-serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 12px;
     line-height: 18px;
     letter-spacing: 0.25px;
 }
 .horizont a:visited {
-    color: #333333;
+    color: rgb(122, 117, 127);
 }
-
 h1 {
     font-family: "Gabriela", serif;
     font-weight: 900;
-    font-style: normal;
     font-size: 48px;
     line-height: 56px;
+    margin-top: 50px;
     margin-bottom: 32px;
 }
 .container {
@@ -47,7 +46,6 @@ h1 {
     margin-bottom: 24px;
 }
 .links__line {
-    font-family: "Franklin Gothic Medium", "sans-serif";
     width: 1181px;
     display: flex;
     gap: 8px;
@@ -57,8 +55,8 @@ h1 {
     border-radius: 24px;
     border: 1px solid #c1c5cd;
     gap: 8px;
-    font-weight: 600;
-    font-size: 16px;
+    font-family: "Franklin Gothic Medium", "sans-serif";
+    font-size: 14px;
     padding: 6px 8px;
     line-height: 20px;
 }
@@ -275,7 +273,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0.7);
     border: 1px solid #c1c5cd;
     border-radius: 24px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 20px;
     width: 261px;
@@ -293,7 +291,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0.7);
     border: 1px solid #c1c5cd;
     border-radius: 24px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 20px;
     width: 67px;
@@ -311,7 +309,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0.7);
     border: 1px solid #c1c5cd;
     border-radius: 24px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 20px;
     width: 67px;
@@ -329,7 +327,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0.7);
     border: 1px solid #c1c5cd;
     border-radius: 24px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 20px;
     left: 8px;
@@ -378,14 +376,14 @@ h1 {
 .grid-element__header {
     font-family: "Gabriela", serif;
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 900;
     line-height: 26px;
 }
 .grid-element__autor {
     font-family: "Gabriela", serif;
     font-style: normal;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     line-height: 18px;
     letter-spacing: 0.25px;
@@ -399,8 +397,8 @@ h1 {
 .grid-element__description {
     font-family: "Gabriela", serif;
     font-style: normal;
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 400;
     line-height: 20px;
     width: 554px;
 }
@@ -408,7 +406,7 @@ h1 {
     font-family: "Gabriela", serif;
     font-style: normal;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .background {
     position: absolute;
@@ -426,16 +424,16 @@ h1 {
     margin-bottom: 96px;
 }
 .button-more {
-    cursor: pointer;
     width: 182px;
     height: 48px;
-    color: #6800f9;
+    color: #ffffff;
     border-radius: 4px;
-    background-color: #e9a945;
+    background-color: rgb(53, 179, 169);
     text-align: center;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 700;
-    border: 3px inset #6800f9;
+    justify-content: center;
+    text-align: center;
 }
 
 @media (max-width: 1024px)  {
@@ -455,6 +453,9 @@ h1 {
     .box {
         width: 900px;
         margin-left: 18px;
+    }
+    .logo, .box {
+        margin-left: 15px;
     }
     .horizont {
         margin-left: 5px;
@@ -647,26 +648,35 @@ h1 {
         content: "";
         width: 18px;
         height: 2px;
-        background-color: #6800f9;
+        background-color: rgb(53, 179, 169);
         border-radius: 1px;
         position: absolute;
         top: 13px;
         left: 11px;
-        box-shadow: 0 6px 0 0 #6800f9, 0 12px 0 0 #6800f9;
-    }
-    .horizont {
-        margin-bottom: 32px;
+        box-shadow: 0 6px 0 0 rgb(53, 179, 169), 0 12px 0 0 rgb(53, 179, 169);
     }
     .box {
-        width: 728px;
-    }
-    .container {
-        width: 728px;
-        height: 72px;
+        display: flex;
+        max-width: 728px;
+        min-width: 375px;
+        margin-right: 5px;
         flex-wrap: wrap;
     }
+    .box__h1 {
+        margin-top: 70px;
+        margin-left: -105px;
+    }
+    .container {
+        display: flex;
+        max-width: 728px;
+        min-width: 375px;
+        height: auto;
+    }
     .links__line {
-        width: 717px;
+        display: flex;
+        max-width: 717px;
+        min-width: 364px;
+        gap: 3px;
     }
     .grid-container {
         display: flex;

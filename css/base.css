@@ -90,11 +90,15 @@ button:hover {
 }
 
 li a:hover {
-    color:rgb(194, 0, 91);
+    color: rgb(240, 200, 50);
 }
 
 a:hover {
-    color:rgb(194, 0, 91);
+    color:rgb(0, 100, 194);
+}
+
+a span:hover {
+    color:rgb(0, 100, 194);
 }
 
 label {
@@ -111,10 +115,8 @@ legend {
     align-items: center;
     width: 100%;
     height: 76px;
+    font-size: 14px;
     border-bottom: 1px solid #eff5fb;
-    background: #108dc7; 
-    background: -webkit-linear-gradient(to left, #108dc7, #ef8e38); 
-    background: linear-gradient(to left, #108dc7, #ef8e38);
 }
 .header-container {
     width: 1200px;
@@ -132,7 +134,7 @@ legend {
     display: flex;
     align-items: center;
     gap: 30px;
-    line-height: 17px;
+    line-height: 14px;
     margin-left: 51px;
     margin-right: 164px;
     white-space: nowrap;
@@ -140,11 +142,11 @@ legend {
 .nav-item {
     font-family: "Franklin Gothic Medium", sans-serif;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 14px;
     text-decoration: none;
     line-height: 114%;
     letter-spacing: 0.25px;
-    color: #000000;
+    color: #333333;
 }
 .matherials {
     display: flex;
@@ -160,17 +162,16 @@ legend {
     flex-direction: row;
 }
 .button {
-    cursor: pointer;
-    color: #6800f9;
+    color: #03b2a5;
     border-radius: 4px;
-    border: 3px inset #6800f9;
-    background-color: #e9a945;
+    border: 0;
+    background-color: #e3f5f5;
     font-family: "Playpen Sans", cursive;
     font-optical-sizing: auto;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 700;
-    padding: 8px 10px;
-    width: 210px;
+    padding: 14px 20px;
+    width: 230px;
     height: 48px;
     text-align: center;
     white-space: nowrap;
@@ -184,15 +185,13 @@ legend {
     color: #ffffff;
     height: 302px;
     width: 100%;
-    background: #108dc7; 
-    background: -webkit-linear-gradient(to left, #ef8e38, #108dc7); 
-    background: linear-gradient(to left, #ef8e38, #108dc7);
+    background: rgb(41, 99, 163);
     justify-content: center;
     align-items: center;
 }
 .footer-container {
     width: 1200px;
-    height: 100
+    height: 100%;
 }
 .footer_block-upper {
     display: flex;
@@ -201,6 +200,7 @@ legend {
     height: 208px;
     justify-content: space-between;
     border-bottom: 1px solid #9d9d9d;
+    padding-bottom: 25px;
     margin-top: 40px;
 }
 .link {
@@ -228,13 +228,13 @@ legend {
 ul.vertical-list1 a {
     color: #ffffff;
     font-family: "Franklin Gothic Medium", sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 400;
 }
 ul.vertical-list2 a {
     color: #ffffff;
     font-family: "Franklin Gothic Medium", sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 400;
 }
 .vertical-list1 {
@@ -289,14 +289,13 @@ ul.vertical-list2 a {
     width: 64px;
     height: 48px;
     cursor: pointer;
-    border: 3px inset #108dc7
 }
 ::placeholder {
     font-family: "Franklin Gothic Medium", sans-serif;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 400;
     padding-left: 16px;
-    color: #000000;
+    color: rgb(122, 117, 127);
   }
 .footer_accord {
     font-family: "Gabriela", serif;
@@ -307,6 +306,7 @@ ul.vertical-list2 a {
     width: 410px;
     height: 54px;
     opacity: 0.7;
+    color: #ffffff99;
 }
 .footer_block-upper-fourth {
     display: flex;
@@ -328,6 +328,7 @@ ul.vertical-list2 a {
     margin-top: 16px;
     margin-bottom: 17px;
     opacity: 0.7;
+    color: #ffffff99;
 }
 .youtalk {
     display: flex;
@@ -337,8 +338,8 @@ ul.vertical-list2 a {
 }
 .youtalk a {
     font-family: "Franklin Gothic Medium", sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    color: #000000;
+    color: #ffffff99;
 }
